@@ -1,37 +1,34 @@
-# Demo repo for the TC3006 course
-This repository is a demo of what is expected to deliver on each repository requested for the TC3006 course at Tecnológico de Monterrey. For this demo, we consider the *implementation portfolio* deliverable, which spans across two modules (Statistics and ML) and two subcompetencies (SMA0101A and SMA0401A). Also, we assume that the repository is being provided at the end of first block, which means that the students already got some feedback from the professors. 
+# Repositorio Equipo 5 TC3006C
+Este es el repositorio oficial del Equipo 5 del curso TC3006C.101 (Inteligencia Artificial Avanzada para la Ciencia de Datos). En este repositorio se encontrarán los diferentes archivos, reportes y scripts correspondientes a las entregas del reto y de las actividades en clase. Además, se proveerá retroalimentación de las entregas y se podrán identificar las diferentes versiones existentes de los avances que se realicen. 
 
-## Structure of this repository
-The root folder of this repository contains the following files and folders: 
+## Estructura del repositorio
+La carpeta "root" de este repositorio incluye los siguientes archivos:
 
-* **Files**
-  * README.md: This file  
+* **Archivos**
+  * README.md: Este archivo 
 * **Folders**
-  * final: Folder with the information about the final deliverables, which include the changes that the reviewers asked for
-  * retro: Folder with the information about the draft version of each deliverable, which are provided for requesting feedback
+  * final: Carpeta con la información de los entregables finales, cuando ya están listos para ser evaluados.
+  * retro: Carpeta con los archivos e información cuando están en etapa de borrador. Están listos para obtener retroalimentación por los profesores.
 
-## Files for revision
-Following is a list of the files that must be checked for grading each subcompetency: 
+## Archivos para revisión
+A continuación se presentan los archivos que están listos para ser retroalimentados: 
 
-* *Module 1: Statistics*
-	* *SMA0101A*
-		* **Evidence 01: Modeling** Please review file **final/M1_Statistics/Ev_01/dummyFile.txt**
-* *Module 2: Machine Learning*
-	* *SMA0401A*
-		* **Evidence 01: ML from scratch** Please review file **final/M2_ML/Ev_01/dummyFile.txt**
-		* **Evidence 02: ML from a framework** Please review file **final/M2_ML/Ev_02/dummyFolder/dummyFile.txt**
-
+* *Modulo 4: Reto*
+		* **Momento de Retroalimentación: Reto Limpieza del Conjunto de Datos** Please review file **retro/M4_Reto/Limpieza/limpieza.ipybn** o en: 
+		https://github.com/imjdl03/Reto-3006C-equipo5/blob/main/retro/M4_Reto/Limpieza/limpieza.ipynb
+  
+* *Detalles de variables*
+		* Para ver una descripción de la eleccion de las variables y el proceso realizado, consultar el documento en **retro/M4_Reto/Limpieza/Limpieza de datos.pdf** o en: 
+  		https://github.com/imjdl03/Reto-3006C-equipo5/blob/main/retro/M4_Reto/Limpieza/Limpieza%20de%20datos.pdf
+		
+  
 
 ## Requested changes and replies
 Following is a list of the location of the issues that were raised by the reviewer during the feedback phase. Please refer to them for more details.
 
-* *Module 1: Statistics*
-	* *SMA0101A*
-		* **Evidence 01: Modeling: final/M1_Statistics/README.md**
-* *Module 2: Machine Learning*
-	* *SMA0401A*
-		* **Evidence 01: ML from scratch: final/M2_ML/README.md**
-		* **Evidence 02: ML from a framework: final/M2_ML/README.md**
+* *Modulo 4: Reto*
+		* **Momento de Retroalimentación: Reto Limpieza del Conjunto de Datos** Please review file **retro/M4_Reto/Limpieza/limpieza.ipybn** o en: 
+		https://github.com/imjdl03/Reto-3006C-equipo5/blob/main/retro/M4_Reto/Limpieza/limpieza.ipynb
 		
 
 See you!
