@@ -20,12 +20,12 @@ La carpeta "root" de este repositorio incluye los siguientes archivos:
 A continuación se presentan los archivos que están listos para ser retroalimentados: 
 
 * *Modulo 4: Reto*
-		* **Momento de Retroalimentación: Reto Limpieza del Conjunto de Datos** Please review file **retro/M4_Reto/Limpieza/limpieza.ipybn** o en: 
-		https://github.com/imjdl03/Reto-3006C-equipo5/blob/main/retro/M4_Reto/Limpieza/limpieza.ipynb
+		* **Momento de Retroalimentación: Reto Selección, configuración y entrenamiento del modelo** Please review file **retro/M4_Reto/Modelacion/pruebas_de_modelacion.ipynb** o en: 
+		https://github.com/imjdl03/Reto-3006C-equipo5/blob/main/retro/M4_Reto/Modelacion/pruebas_de_modelacion.ipynb
   
-* *Detalles de variables*
-		* Para ver una descripción de la eleccion de las variables y el proceso realizado, consultar el documento en **retro/M4_Reto/Limpieza/Limpieza de datos.pdf** o en: 
-  		https://github.com/imjdl03/Reto-3006C-equipo5/blob/main/retro/M4_Reto/Limpieza/Limpieza%20de%20datos.pdf
+* *Reporte de elección de los modelos*
+		* Para ver una descripción de los modelos y el proceso realizado, consultar el documento en **retro/M4_Reto/Modelacion/Selección%20y%20configuración%20del%20modelo.pdf** o en: 
+  		https://github.com/imjdl03/Reto-3006C-equipo5/blob/main/retro/M4_Reto/Modelacion/Selección%20y%20configuración%20del%20modelo.pdf
 		
   
 
@@ -33,8 +33,8 @@ A continuación se presentan los archivos que están listos para ser retroalimen
 Following is a list of the location of the issues that were raised by the reviewer during the feedback phase. Please refer to them for more details.
 
 * *Modulo 4: Reto*
-		* **Momento de Retroalimentación: Reto Limpieza del Conjunto de Datos** Please review file **retro/M4_Reto/Limpieza/limpieza.ipybn** o en: 
-		https://github.com/imjdl03/Reto-3006C-equipo5/blob/main/retro/M4_Reto/Limpieza/limpieza.ipynb
+		* **Momento de Retroalimentación: Reto Selección, configuración y entrenamiento del modelo** Please review file **retro/M4_Reto/Modelacion/pruebas_de_modelacion.ipynb** o en: 
+		https://github.com/imjdl03/Reto-3006C-equipo5/blob/main/retro/M4_Reto/Modelacion/pruebas_de_modelacion.ipynb
 		
 
 See you!
