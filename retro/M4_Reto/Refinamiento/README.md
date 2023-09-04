@@ -20,4 +20,6 @@ Se realizaron pruebas con diferentes modelos, hasta llegar a la decisión de uti
 ## Archivos para revisión
 A continuación se presentan los archivos que están listos para ser retroalimentados: 
 
-* **Momento de Retroalimentación: Módulo 2 Uso de framework o biblioteca de aprendizaje máquina para la implementación de una solución. (Portafolio Implementación)** Archivo para revisión **retro/M4_Reto/Refinamiento/refinamiento.ipynb** o en: https://github.com/imjdl03/Reto-3006C-equipo5/tree/main/retro/M4_Reto/Refinamiento/refinamiento.ipynb
+* **Momento de Retroalimentación: Reto Evaluación y Refinamiento de modelo** Archivo para revisión **retro/M4_Reto/Refinamiento/refinamiento.ipynb** o en: https://github.com/imjdl03/Reto-3006C-equipo5/tree/main/retro/M4_Reto/Refinamiento/refinamiento.ipynb
+
+* **Momento de Retroalimentación: Reto Evaluación y Refinamiento de modelo** Archivo para revisión **retro/M4_Reto/Refinamiento/Refinamiento%20del%20modelo.pdf** o en: https://github.com/imjdl03/Reto-3006C-equipo5/blob/main/retro/M4_Reto/Refinamiento/Refinamiento%20del%20modelo.pdf
