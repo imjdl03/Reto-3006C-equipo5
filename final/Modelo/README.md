@@ -4,7 +4,7 @@ En esta entrega, se exploran diferentes modelos compatibles con el problema a re
 
 Esta carpeta contiene los archivos solicitados para completar la actividad, está compuesta por:
 * **Notebook_Modelo.ipynb**: Notebook donde se encuentra el código realizado, en donde se prueban 3 diferentes modelos con hiperparámetros distintos, se evalúan los modelos con un conjunto de validación y se selecciona al mejor modelo.
-* **Reporte_Modelo.pdf**: Archivo donde se encuentran los datos del set de datos utilizado en la actividad en formato csv.
+* **Reporte_Modelo.pdf**: Reporte donde se incluye la descripción y explicación detallada de lo que se realizó para seleccionar el modelo, se describen los hiperparámetros utilizados y incluye el modelo seleccionado.
 
 ## Set de Datos 
 
