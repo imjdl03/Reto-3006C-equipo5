@@ -13,5 +13,8 @@ Esta carpeta contiene las siguientes carpetas y archivos:
   * **Limpieza:** Carpeta con archivos pertenecientes a la entrega "Limpieza del Conjunto de Datos"
   * **Modelo:** Carpeta con archivos pertenecientes a la entrega "Reto, selección, configuración y entrenamiento del modelo".
   * **Refinamiento:** Carpeta con archivos pertenecientes a la entrega "Reto, evaluación y refinamiento del modelo".
+  * **Interfaz:** Liga al repositorio con la interfaz creada para el reto: https://github.com/FranciscoMest02/InterfazTitanic/tree/main
+ 
+    
 
 
