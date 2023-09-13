@@ -10,8 +10,22 @@ Esta carpeta contiene los archivos solicitados para completar la actividad, est�
 
 El set de datos utilizado se llama "train_clean.csv", y este incluye 886 registros de personas que abordaron el Titanic. Cada registro tiene las siguientes características
 
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+* Survived
+* Pclass
+* Sex
+* Age
+* SibSp
+* Parch
+* Fare
+* Embarked_C
+* Embarked_Q
+* Embarked_S
+* Title_Miss
+* Title_Master
+* Title_Mr
+* Title_Mrs
+* Title_Officer
+* Title_Royal
 
 En donde, buscamos predecir la especie a la que pertenece cada muestra en base a las otras características que tenemos como "datos de entrada".
 
