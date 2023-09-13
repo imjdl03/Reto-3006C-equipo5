@@ -48,11 +48,15 @@ A continuación se enlistan los puntos que no recibieron marcas en la rúbrica d
    * El reporte ahora incluye una descripción más detallada del problema que se está resolviendo, incluyendo la explicación del por qué se trata de un problema de clasificación.
 
 5. **El reporte incluye una descripción de los hiper-parámetros utilizados para entrenar el modelo**
+    * El reporte ahora incluye una descripción de cada uno de los hiperparámetros que se modificaron para encontrar el mejor modelo. Se explica para qué sirven y se prueba con diferentes valores de cada uno para analizar su efecto. 
 
 6. **El modelo seleccionado se escogió de forma correcta (es acorde al tipo de problema)**
+    * Se definieron ciertos parámetros para cada modelo probado, con un rango de valores para cada uno, se probó con diferentes configuraciones y se obtuvo la mejor configuración para cada uno de los 3 modelos probados. Después de encontrar la mejor configuración de cada uno, se compararon todos los modelos y se seleccionó el más adecuado. El proceso se encuentra en el Notebook y la descripción detallada de cada hiperparámetro y cada modelo se encuentar en el reporte. 
 
 7. **El reporte incluye una descripción de las métricas de desempeño para el subconjunto de entrenamiento**
+   * En el reporte ahora se incluye la definición de la métrica seleccionada, cómo funciona y la fórmula matemática de la misma. 
 
 8. **Los hiper-parámetros seleccionados para entrenar el modelo son adecuados**:
+   * El reporte ahora cuenta con una explicación detallada de cada hiperparámetro utilizado en los diferentes modelos, y para seleccionar las mejores combinaciones, se utilizó el método de "grid-search", el cual ayuda a encontrar los valores óptimos para cada hiperparámetro.
 
 
