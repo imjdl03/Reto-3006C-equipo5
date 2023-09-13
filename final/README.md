@@ -7,6 +7,7 @@ Esta carpeta contiene las siguientes carpetas y archivos:
 
 * ### **Archivos**
   * **README.md** Este archivo, el cual describe el contenido de la carpeta "final".
+  * **Reporte_final.pdf** Se adjunta el reporte final con un compendio de los resultados de todos los demás reportes.
 * ### **Carpetas**
   * **Data:** Carpeta donde se encuentran los archivos de datos de entrenamiento y pruebas iniciales y limpios.
   * **Limpieza:** Carpeta con archivos pertenecientes a la entrega "Limpieza del Conjunto de Datos"
