@@ -8,7 +8,7 @@ Esta carpeta contiene los archivos solicitados para completar la actividad, est�
 
 ## Set de Datos 
 
-El set de datos utilizado se llama "train_clean.csv", y este incluye 886 registros de personas que abordaron el Titanic. Cada registro tiene las siguientes características
+El set de datos utilizado se llama "train_clean.csv", y este incluye 886 registros de personas que abordaron el Titanic. Cada registro cuenta con las siguientes características:
 
 * Survived
 * Pclass
@@ -17,17 +17,10 @@ El set de datos utilizado se llama "train_clean.csv", y este incluye 886 registr
 * SibSp
 * Parch
 * Fare
-* Embarked_C
-* Embarked_Q
-* Embarked_S
-* Title_Miss
-* Title_Master
-* Title_Mr
-* Title_Mrs
-* Title_Officer
-* Title_Royal
+* Variables binarias de Embarked (Embarked_Q, Embarked_S, Embarked_C)
+* Variables binarias de Title (Title_Master, Title_Officer, Title_Mr, Title_Mrs, Title_Miss, Title_Royal)
 
-En donde, buscamos predecir la especie a la que pertenece cada muestra en base a las otras características que tenemos como "datos de entrada".
+En donde, se busca predecir si la persona sobrevivió o no en base a las otras características que se tienen como "datos de entrada".
 
 El set de datos se puede encontrar en: https://github.com/adrian-faz/Portafolio_Implementacion/blob/main/final/M2_ML/Entrega_Framework/iris.csv
 
