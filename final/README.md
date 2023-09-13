@@ -13,7 +13,5 @@ Esta carpeta contiene las siguientes carpetas y archivos:
   * **Limpieza:** Carpeta con archivos pertenecientes a la entrega "Limpieza del Conjunto de Datos"
   * **Modelo:** Carpeta con archivos pertenecientes a la entrega "Reto, selección, configuración y entrenamiento del modelo".
   * **Refinamiento:** Carpeta con archivos pertenecientes a la entrega "Reto, evaluación y refinamiento del modelo".
-  * **Reporte Final:** Carpeta que contiene el reporte final del Reto, el cual incluye todas las etapas desde la limpieza de los datos hasta el refinamiento del modelo.
-
 
 
