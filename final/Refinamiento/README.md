@@ -1,6 +1,6 @@
 # Entrega: Evaluación y Refinamiento del modelo
 
-En esta entrega, se 
+En esta entrega, se aplicaron técnicas de regularización y refinamiento para mejorar el modelo seleccionado. Además, se realizó una evaluación del modelo y se interpretaron los resultados obtenidos.
 
 Esta carpeta contiene los archivos solicitados para completar la actividad, está compuesta por:
 * **Notebook_Refinamiento.ipynb**: Notebook donde se encuentra el código realizado, en donde se trabaja con el modelo seleccionado previamente para refinar sus hiperparámetros y aplicar técnicas de regularización, permitiendo tener el mejor modelo posible.  
@@ -37,9 +37,10 @@ A continuación se enlistan los puntos que no recibieron marcas en la rúbrica d
 
 1. **El reporte incluye una sección donde se expliquen las métricas utilizadas para comprobar el desempeño de los modelos desarrollados**:
    * En esta nueva versión, se incluye una explicación detallada de la métrica utilizada (accuracy), además de que se describe cómo se obtiene y su fórmula matemática.
-3. **El reporte incluye una sección donde se hagan pruebas relacionadas con el efecto de la regularización**
-4. **La interpretación de los resultados es correcta y está soportada por gráficas, tablas, o argumentos sólidos**
-
+2. **El reporte incluye una sección donde se hagan pruebas relacionadas con el efecto de la regularización**:
+   * La regularización de nuestro modelo se realizó por medio de la optimización de parámetros con la herramienta Optuna. En esta nueva versión de la entrega, se incluyó una sección  dedicada a la regularización del modelo, y se explican los hiperparámetros relacionados a la regularización que Optuna toma en cuenta, y se realiza una comparación de los resultados antes y después de la regularización. 
+3. **La interpretación de los resultados es correcta y está soportada por gráficas, tablas, o argumentos sólidos**:
+   * Para evaluar el desempeño de manera visual, se agregaron gráficas de curvas ROC, las cuales permiten comparar la capacidad de los modelos de clasificación binaria. Se incluyó una gráfica antes y una después del refinamiento y regularización para así identificar cómo mejoró el modelo. 
 
 
 
