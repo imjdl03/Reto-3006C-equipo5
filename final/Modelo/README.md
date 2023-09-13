@@ -3,44 +3,56 @@
 En esta entrega, se exploran diferentes modelos compatibles con el problema a resolver, se realizan pruebas con diferentes modelos y distintos hiperparámetros. Finalmente, se selecciona el modelo a utilizar en base a la métrica de desempeño seleccionada.
 
 Esta carpeta contiene los archivos solicitados para completar la actividad, está compuesta por:
-* **Notebook_Modelo.ipynb**: Notebook donde se encuentra el código realizado y la implementación del modelo, además de las explicaciones pertinentes.
+* **Notebook_Modelo.ipynb**: Notebook donde se encuentra el código realizado, en donde se prueban 3 diferentes modelos con hiperparámetros distintos, se evalúan los modelos con un conjunto de validación y se selecciona al mejor modelo.
 * **Reporte_Modelo.pdf**: Archivo donde se encuentran los datos del set de datos utilizado en la actividad en formato csv.
 
 ## Set de Datos 
 
-El set de datos utilizado se llama "train_clean.csv", y este incluye 886 registros de personas que abordaron el Titanic. Cada registro tiene las siguientes características
+El set de datos utilizado se llama "train_clean.csv", y este incluye 886 registros de personas que abordaron el Titanic. Cada registro cuenta con las siguientes características:
 
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+* Survived
+* Pclass
+* Sex
+* Age
+* SibSp
+* Parch
+* Fare
+* Variables binarias de Embarked (Embarked_Q, Embarked_S, Embarked_C)
+* Variables binarias de Title (Title_Master, Title_Officer, Title_Mr, Title_Mrs, Title_Miss, Title_Royal)
 
-En donde, buscamos predecir la especie a la que pertenece cada muestra en base a las otras características que tenemos como "datos de entrada".
+En donde, se busca predecir si la persona sobrevivió o no en base a las otras características que se tienen como "datos de entrada".
 
-El set de datos se puede encontrar en: https://github.com/adrian-faz/Portafolio_Implementacion/blob/main/final/M2_ML/Entrega_Framework/iris.csv
+El set de datos se puede encontrar en: https://github.com/imjdl03/Reto-3006C-equipo5/blob/main/final/Data/train_clean.csv
 
-## Problema
+## Modelo ML seleccionado
 
-El problema presentado en este caso es de **clasificación**, pues se busca generar un modelo que sea capaz de clasificar en una de las 3 especies existentes en los datos, basandose en los otros datos, como lo son las longitudes y anchuras del sépalo y del pétalo. 
+El problema presentado en este caso es de **clasificación**, pues se busca generar un modelo que sea capaz de clasificar en si una persona sobrevivió o no, basandose en los otros datos involucrados.
 
-El modelo a utilizar fue el **Decision Tree Classifier**, el cual es un algoritmo de aprendizaje supervisado que descompone un problema complejo en subproblemas más simples, tomando decisiones basadas en las características de los datos. Este árbol se compone de nodos que representan condiciones, y ramas, que serían las posibles respuestas. Lo que se busca  es llegar a una "hoja" que contiene la clase a la que pertenece.
-
-## Subcompetencias y archivos a revisar
-
-Las competencias e indicadores a evaluar en esta entrega son las siguientes:
-
-1. **SMA0401A**
-   * Indicadores:
-      * Usa un marco de trabajo o framework para implementar una técnica o algoritmo de aprendizaje máquina como: regresiones, árboles, clusters, etc...
-       
-   * Archivo donde se evalúa:
-      * Actividad_Framework.ipynb
-
+El modelo final seleccionado fue la **Regresión Logística**, el cual es un algoritmo de aprendizaje supervisado que estima la probabilidad de que una instancia pertenezca a una categoría particular. Se utiliza la función logística o sigmoide, la cual transforma su salida para caer entre 0 y 1, y esto permite representarla como una probabilidad. La regresión logística utiliza variables predictoras para calcular ponderaciones que maximizan la verosimilitud de clasificar correctamente las observaciones. Normalmente se usa 0.5 como el umbral, si la probabilidad modelada es superior a este valor, la instancia se clasifica en la categoría 1, y si es inferior, en la categoría 0. De los modelos probados compatibles con problemas de clasificación, la Regresión Logística fue el que nos arrojó un mejor resultado en cuestión de ajuste del modelo y su poco nivel de overfitting a comparación de los demás modelos.
 
 
 ## Cambios implementados
 
 A continuación se enlistan los puntos que no recibieron marcas en la rúbrica de retroalimentación y lo que se hizo para resolverlo:
 
-1. "**El readme indica cuáles son los archivos que deberán revisarse para evaluar los indicadores de las subcompetencias**":
-    * Se agregó una sección nueva en el readme con las subcompetencias a evaluar en esta actividad y los archivos en donde se pueden revisar.
+1. **El readme incluye una descripción del modelo de ML seleccionado**:
+   * El readme ahora incluye la descripción detallada de el modelo seleccionado (Regresión Logística), la cual no estaba incluida en la entrega pasada.
+
+2. **El reporte incluye el nombre del dataset utilizado**
+   * El reporte y el readme ahora incluyen el nombre del dataset utilizado.
+
+3. **El reporte incluye una descripción breve de los datos incluidos en el dataset (cantidad de registros/muestras, número de características, número de clases de salida o rango de valores de salida)**
+   * El reporte ahora incluye una descripción más detallada de los datos que se incluyen, explicando las características que permanecieron, la cantidad de registros y las posibles salidas.
+
+4. **El reporte incluye una descripción del tipo de problema a resolver (regresión o clasificación)**
+   * El reporte ahora incluye una descripción más detallada del problema que se está resolviendo, incluyendo la explicación del por qué se trata de un problema de clasificación.
+
+5. **El reporte incluye una descripción de los hiper-parámetros utilizados para entrenar el modelo**
+
+6. **El modelo seleccionado se escogió de forma correcta (es acorde al tipo de problema)**
+
+7. **El reporte incluye una descripción de las métricas de desempeño para el subconjunto de entrenamiento**
+
+8. **Los hiper-parámetros seleccionados para entrenar el modelo son adecuados**:
 
 
